@@ -1,5 +1,6 @@
 package patrick.souza.prova1.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +10,7 @@ import patrick.souza.prova1.entity.Usuario;
 import patrick.souza.prova1.repository.UsuarioRepository;
 
 @Service
-public class UsuarioService {
+public class UsuarioService implements IUsuarioService{
 
     @Autowired
     private UsuarioRepository usuarioRepo;
@@ -32,6 +33,12 @@ public class UsuarioService {
 
 
 
+    }
+
+    @Override
+    public List<Usuario> buscarTodos() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'buscarTodos'");
     }
     
     
