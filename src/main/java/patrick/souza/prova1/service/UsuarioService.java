@@ -10,7 +10,7 @@ import patrick.souza.prova1.entity.Usuario;
 import patrick.souza.prova1.repository.UsuarioRepository;
 
 @Service
-public class UsuarioService implements IUsuarioService{
+public class UsuarioService implements IUsuarioService {
 
     @Autowired
     private UsuarioRepository usuarioRepo;

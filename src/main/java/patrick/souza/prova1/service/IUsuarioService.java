@@ -10,7 +10,7 @@ public interface IUsuarioService {
 
     public Usuario novoUsuario(Usuario usuario);
 
-    public List <Usuario> buscarTodos ();
+    public List<Usuario> buscarTodos ();
     
     
 }
