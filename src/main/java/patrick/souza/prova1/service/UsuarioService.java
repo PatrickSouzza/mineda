@@ -15,8 +15,8 @@ public class UsuarioService implements IUsuarioService {
     @Autowired
     private UsuarioRepository usuarioRepo;
 
-    public Usuario buscarPorId(Long Id){
-        Optional<Usuario> usuarioOp = usuarioRepo.findById(Id);
+    public Usuario buscarPorId(Long id){
+        Optional<Usuario> usuarioOp = usuarioRepo.findById(id);
         if(usuarioOp.isPresent()) {
             return usuarioOp.get();
         }

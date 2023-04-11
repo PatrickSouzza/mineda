@@ -6,7 +6,7 @@ import patrick.souza.prova1.entity.Usuario;
 
 public interface IUsuarioService {
 
-    public Usuario buscarPorId( Long Id);
+    public Usuario buscarPorId( Long id);
 
     public Usuario novoUsuario(Usuario usuario);
 
